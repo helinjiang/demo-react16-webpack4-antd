@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import './App.less';
+import './App.less';
 
 export default class App extends Component {
     componentDidMount() {
