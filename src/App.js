@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import SayHello from './components/say-hello';
+
 import './App.less';
 
 export default class App extends Component {
@@ -11,6 +13,7 @@ export default class App extends Component {
         return (
             <div className="container">
                 <h1>hello,world!</h1>
+                <SayHello/>
             </div>
         );
     }
