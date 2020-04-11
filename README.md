@@ -3,7 +3,7 @@
 react16+webpack4+antd 简单例子
 
 本项目是一个学习项目，用的技术和框架包括：
-
+cnpm install webpack -D
 - [React](https://reactjs.org/) v16.x
 - [Webpack](https://webpack.js.org/) v4.x
 - [antd](https://ant.design/) v4.x
