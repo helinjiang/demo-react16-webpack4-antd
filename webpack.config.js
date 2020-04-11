@@ -37,6 +37,15 @@ module.exports = {
                     'css-loader',
                     'less-loader'
                 ]
+            },
+            {
+                test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2|svgz)$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: 'assets/images/[name]_[hash:8].[ext]'
+                    }
+                }
             }
         ]
     },

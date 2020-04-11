@@ -8,6 +8,7 @@ export default class SayHello extends Component {
         return (
             <div className="say-hello">
                 <p>welcome!</p>
+                <div className="logo"/>
                 <Button type="primary">Primary</Button>
                 <Button>Default</Button>
                 <Button type="dashed">Dashed</Button>
